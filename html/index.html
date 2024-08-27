@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../js/index.js" defer></script>
+    <title>Exam Grade</title>
+  </head>
+  <body>
+    <div class="bg-pink-100 p-8 w-full text-center border-2">
+      <label class="text-pink-900 m-6 p-6">Exam Score :</label>
+      <input
+        id="score"
+        type="number"
+        name="score"
+        placeholder="Enter Your Exam Score"
+        class="border-2 border-pink-800 w-full p-2 m-6 text-zinc-900"
+      />
+      <button
+        id="submitBtn"
+        class="bg-zinc-100 text-pink-800 border-2 border-pink-500 p-2 m-6 text-xs text-center hover:bg-pink-300"
+      >
+        Send Score
+      </button>
+      <p id="finalresult" class="mt-4"></p>
+    </div>
+  </body>
+</html>
